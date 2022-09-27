@@ -1,13 +1,9 @@
-import React from "react";
-
 import "../styles/pages/landing.css";
 
 import { Link } from "react-router-dom";
-
 import {FiArrowRight} from "react-icons/fi/index"
 
 import logoImg from "../images/logo.svg";
-// import OrphanagesMap from "./OrphanagesMap";
 
 function Landing() {
   return (
