@@ -4,7 +4,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';  // integração do React com a DOM.
-import Landing from './pages/Landing';
+import App from './App';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -12,6 +12,6 @@ const root = ReactDOM.createRoot(
 // método .render() que recebe tags (componentes).
 root.render(
   <React.StrictMode>
-    <Landing />
+    <App />
   </React.StrictMode>
 );
